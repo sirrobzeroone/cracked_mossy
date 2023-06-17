@@ -1,0 +1,76 @@
+-----------------------------------------------------------------
+--     ___             _          _   __  __                   --
+--    / __|_ _ __ _ __| |_____ __| | |  \/  |___ _______  _    --
+--   | (__| '_/ _` / _| / / -_) _` | | |\/| / _ (_-<_-< || |   --
+--    \___|_| \__,_\__|_\_\___\__,_| |_|  |_\___/__/__/\_, |   --
+--                                                     |__/    --
+-----------------------------------------------------------------
+--                       Sirrobzeroone                         --
+-----------------------------------------------------------------
+
+The base node textures are under the below licence (CC BY-SA 3.0) 
+the cracks and moss added ontop were done by myself and as per terms 
+of the licence fall under the same licence.
+
+--------------------------------------------------------
+-- Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) --
+--------------------------------------------------------
+Sirrobzeroone - built upon versions of textures
+	cracked_mossy_cracked_desert_sandstone_block.png
+	cracked_mossy_cracked_desert_sandstone_brick.png
+	cracked_mossy_cracked_desertstoneblock.png
+	cracked_mossy_cracked_desertstonebrick.png
+	cracked_mossy_cracked_sandstone_block.png
+	cracked_mossy_cracked_sandstone_brick.png
+	cracked_mossy_cracked_silver_sandstone_block.png
+	cracked_mossy_cracked_silver_sandstone_brick.png
+	cracked_mossy_cracked_stone_block.png
+	cracked_mossy_cracked_stonebrick.png
+	cracked_mossy_mossy_desertstoneblock.png
+	cracked_mossy_mossy_desertstonebrick.png
+	cracked_mossy_mossy_stone_block.png
+	cracked_mossy_mossy_stonebrick.png
+
+Paramat
+	default_stone_brick.png
+	default_stone_block.png
+	default_desert_stone_brick.png
+	default_desert_stone_block.png
+	default_sandstone_brick.png
+	default_sandstone_block.png
+	
+Kaeza  
+	default_desert_sandstone_brick.png
+	default_desert_sandstone_block.png
+	
+GreenXenith
+	default_silver_sandstone_brick.png
+	default_silver_sandstone_block.png
+
+You are free to:
+Share — copy and redistribute the material in any medium or format.
+Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following terms:
+
+Attribution — You must give appropriate credit, provide a link to the license, and
+indicate if changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use.
+
+ShareAlike — If you remix, transform, or build upon the material, you must distribute
+your contributions under the same license as the original.
+
+No additional restrictions — You may not apply legal terms or technological measures that
+legally restrict others from doing anything the license permits.
+
+Notices:
+
+You do not have to comply with the license for elements of the material in the public
+domain or where your use is permitted by an applicable exception or limitation.
+No warranties are given. The license may not give you all of the permissions necessary
+for your intended use. For example, other rights such as publicity, privacy, or moral
+rights may limit how you use the material.
+
+For more details:
+http://creativecommons.org/licenses/by-sa/3.0/
