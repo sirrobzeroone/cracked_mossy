@@ -8,47 +8,6 @@
 --                       Sirrobzeroone                         --
 -----------------------------------------------------------------
 
---[[
-Small mod that adds cracked and mossy versions of a few blocks.
-Aware there is cracked castle by pampogokiraly however that adds
-some other blocks which duplicates against cave realms for myself
-as well as missing a few cracked versions I wanted. This mod wont
-conflict with cracked castle if you use it.
-
-Nodes Included/Covered
---default:stone_brick
-	cracked and mossy version
-
---default:stone_block 
-	cracked and mossy version
-
---default:desert_stonebrick
-	cracked and mossy version
-
---default:desert_stone_block
-	cracked and mossy version
-
---default:sandstonebrick
-	cracked only
-	
---default:sandstone_block
-	cracked only
-	
---default:desert_sandstone_brick
-	cracked only
-	
---default:desert_sandstone_block
-	cracked only
-	
---default:silver_sandstone_brick
-	cracked only
-	
---default:silver_sandstone_block
-	cracked only
-	
-]]--
-
-
 ----------------------------
 --        Settings        --
 ----------------------------
@@ -61,6 +20,7 @@ local m_path = minetest.get_modpath(m_name)
 local def_exist = minetest.get_modpath("default")
 local stairs_exist = minetest.get_modpath("stairs")
 local crackcast_exist = minetest.get_modpath("cracked_castle")
+local walls_exist = minetest.get_modpath("walls")
 
 
 local stone_sound
@@ -158,7 +118,16 @@ for k,v in ipairs(cracked_mossy.nodes) do
 											true, 
 											"Inner "..v.desc.." Stairs", 
 											"Outer "..v.desc.." Stairs")	
-		end	
+		end
+		
+		if walls_exist then		
+			walls.register(	"cracked_mossy:"..v.name.."wall", 
+							S(v.desc.." Wall"), 
+							{"cracked_mossy_"..v.name..".png"},
+							"cracked_mossy:"..v.name, 
+							stone_sound)
+	
+		end
 	end
 end
 
