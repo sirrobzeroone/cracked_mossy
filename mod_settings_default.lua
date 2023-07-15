@@ -84,7 +84,7 @@ if not crackcast_exist then
 
 	cracked_mossy.register_node("default:stonebrick",{
 		color  = "#9c9796",
-		brick  = "big",
+		brick  = "brick2",
 		types  = "both",
 		stairs = true,
 		walls  = true,
@@ -104,7 +104,7 @@ cracked_mossy.register_node("default:desert_stone_block",{
 
 cracked_mossy.register_node("default:desert_stonebrick",{
 	color  = "#c7856c",
-	brick  = "big",
+	brick  = "brick2",
 	types  = "both",
 	stairs = true,
 	walls  = true,
@@ -125,7 +125,7 @@ cracked_mossy.register_node("default:sandstone_block",{
 cracked_mossy.register_node("default:sandstonebrick",{
 	color     = "#fff9c3",
 	c_opacity = 110,
-	brick     = "big",
+	brick     = "brick2",
 	types     = "crack",
 	stairs    = true,
 	walls     = wall_ssb,
@@ -145,7 +145,7 @@ cracked_mossy.register_node("default:desert_sandstone_block",{
 cracked_mossy.register_node("default:desert_sandstone_brick",{
 	color     = "#ffd8a1",
 	c_opacity = 110,
-	brick     = "big",
+	brick     = "brick2",
 	types     = "crack",
 	stairs    = true,
 	walls     = wall_dssb,
@@ -165,7 +165,7 @@ cracked_mossy.register_node("default:silver_sandstone_block",{
 cracked_mossy.register_node("default:silver_sandstone_brick",{
 	color     = "#f7f5e8",
 	c_opacity = 110,
-	brick     = "big",
+	brick     = "brick2",
 	types     = "crack",
 	stairs    = true,
 	walls     = wall_sssb,

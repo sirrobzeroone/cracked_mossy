@@ -35,7 +35,7 @@ minetest.clear_craft({
 })	
 
 -- Override cracked castle overlay texture
-local crack_castle = {["cracked_stonebrick"] = {"default_stone_brick.png^(cracked_mossy_overlay_big_crack.png^[multiply:#9c9796^[opacity:170)"},
+local crack_castle = {["cracked_stonebrick"] = {"default_stone_brick.png^(cracked_mossy_overlay_brick2_crack.png^[multiply:#9c9796^[opacity:170)"},
 					  ["mossy_stonebrick"]   = {"default_stone_brick.png^(cracked_mossy_overlay_mossy.png^[opacity:210)"},
 					  ["cracked_stone_block"]= {"default_stone_block.png^(cracked_mossy_overlay_block_crack.png^[multiply:#9c9796^[opacity:170)"},
 					  ["mossy_stone_block"]  = {"default_stone_block.png^(cracked_mossy_overlay_mossy.png^[opacity:210)"}				  

@@ -25,7 +25,7 @@ cracked_mossy.register_node = function(name, def)
 -- def {color, brick, type stairs, walls}
 	-- color     = #RRGGBB defines a color in hexadecimal format
 	-- c_opacity = How dark the crack overlay is default is 170 or 66%
-	-- brick     = block/null, big, small
+	-- brick     = block/null, brick2
 	-- types     = crack/null, moss, both
 	-- stairs    = true - all stairs and slabs registered if mod installed
 	-- walls     = true - walls registered if mod installed
@@ -58,8 +58,8 @@ cracked_mossy.register_node = function(name, def)
 	def.brick = string.lower(def.brick)
 	
 	if def.brick ~= "block" and  
-	   def.brick ~= "big" and
-	   def.brick ~= "small" then
+	   def.brick ~= "brick2" and
+	   def.brick ~= "brick4" then
 	   
 		def.brick = "block"
 	end
