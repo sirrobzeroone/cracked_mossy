@@ -110,5 +110,5 @@ Brick node (2 high):
 	```tiles = {"base_texture_name^(cracked_mossy_overlay_brick2_crack.png^[multiply:#9c9796^[opacity:170)"}```
 
 #### Moss
-	Moss node:
+Moss node:
 	```tiles = {"base_texture_name^(cracked_mossy_overlay_mossy.png^[opacity:210)"}```
