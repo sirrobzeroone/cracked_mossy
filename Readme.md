@@ -100,7 +100,7 @@ Register a simple cracked mossy version of defaults stone brick with mywalls ins
 ```
 
 ### Manual usage
-	If preferred the texture overlays for cracks and moss can be used manually as part of a normal minetest.register_node() like the below or feel free to simply take the textures and create new textures the crack and moss textures are CC0.
+If preferred the texture overlays for cracks and moss can be used manually as part of a normal minetest.register_node() like the below or feel free to simply take the textures and create new textures the crack and moss textures are CC0.
 	
 #### Crack	
 Block node:
